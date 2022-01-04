@@ -3,7 +3,7 @@ import board
 import neopixel
 import numpy as p
 from time import sleep
-colors = p.random.randint(0, 255,(80, 3)) 
+
 np = neopixel.NeoPixel(board.D18, 60)
 np.brightness = 0.5
     

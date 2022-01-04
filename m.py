@@ -15,6 +15,7 @@ def RGB(event, x, y, flags, param):
         for i in range(60):     
            np[i]=(colorsRGB)
            sleep(0.01)
+           print(colorsRGB)
         
         
 image = cv2.imread("/home/pi/rgb.jpg")

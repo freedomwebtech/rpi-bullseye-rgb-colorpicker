@@ -17,7 +17,7 @@ def RGB(event, x, y, flags, param):
            print(colorsRGB)
         
         
-image = cv2.imread("/home/pi/rgb.jpg")
+image = cv2.imread("/home/pi/rpi-bullseye-rgb-colorpicker/rgb.jpg")
 img = cv2.resize(image,(640,480))
 
 

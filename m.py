@@ -1,7 +1,6 @@
 import cv2
 import board
 import neopixel
-import numpy as p
 from time import sleep
 
 np = neopixel.NeoPixel(board.D18, 60)
